@@ -1,0 +1,7 @@
+macro n 7 end
+
+1 n while dup 1 > do
+  dup rot *
+  swap
+  1 -
+end drop print
